@@ -8,10 +8,10 @@
 
 body{
     background: skyblue;
-    height: 100vh; /* Ensure body takes full height */
-    display: flex; /* Use flexbox to center content */
-    justify-content: center; /* Horizontally center */
-    align-items: center; /* Vertically center */
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 .container{
@@ -22,7 +22,7 @@ body{
     padding-bottom: 50px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.338);
-    position: relative; /* No need for absolute centering when using flexbox */
+    position: relative; 
 }
 
 .timer{
@@ -69,3 +69,4 @@ body{
 .buttons button:hover {
     box-shadow: 0 0 20px rgba(65,5,145,0.25);
 }
+/*completed
