@@ -34,7 +34,7 @@ function displayTimer() {
         }
     }
     let h = hours < 10 ? "0" + hours : hours;
-    let m = minutes < 10 ? "0" + minutes : minutes;  // Fixed 'minutess' typo here
+    let m = minutes < 10 ? "0" + minutes : minutes;
     let s = seconds < 10 ? "0" + seconds : seconds;
     let ms =
         miliseconds < 10
@@ -43,6 +43,8 @@ function displayTimer() {
             ? "0" + miliseconds
             : miliseconds;
     
-    // Use backticks for template literals
+    
     timeref.innerHTML = `${h} : ${m} : ${s} : ${ms}`;
 }
+
+//done
